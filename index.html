@@ -4,12 +4,17 @@
   <meta charset="UTF-8" />
   <title>MAPEO SPRINTER</title>
   <style>
-    body {
+    html, body {
       margin: 0;
-      padding: 20px 0 40px 0; /* Padding arriba y abajo, cero a los lados */
+      padding: 0;
+      height: 100vh;
+      overflow: hidden; /* Evita scroll vertical */
       font-family: Arial, sans-serif;
       background: #f9f9f9;
       text-align: center;
+    }
+    body {
+      padding-top: 20px;
     }
     #logo {
       max-width: 300px;
@@ -22,24 +27,19 @@
       color: #333;
     }
     iframe {
-      width: 100vw;       /* Ocupa todo el ancho visible */
-      height: 80vh;
+      width: 100vw;
+      height: 70vh;       /* Altura menor para que no haya scroll */
       border: 1px solid #ccc;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
-      margin-bottom: 30px; /* Espacio debajo */
+      margin-bottom: 5px; /* Margen muy pequeño */
       display: block;
     }
   </style>
 </head>
 <body>
-  <!-- Logo de la empresa -->
   <img id="logo" src="https://transfarma.cl/wp-content/uploads/2024/06/logo-transfarma-vec.png" alt="Logo de la empresa" />
-
-  <!-- Título -->
   <h1>MAPEO SPRINTER</h1>
-
-  <!-- Modelo 3D -->
   <iframe 
     src="https://3dwarehouse.sketchup.com/embed/d927ceb3-81df-4f69-b6b4-92500fd645cd?token=W6E_0uJDwzA=&binaryName=s21" 
     frameborder="0" 
