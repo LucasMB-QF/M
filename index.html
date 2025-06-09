@@ -2,23 +2,48 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Modelo 3D Incrustado</title>
+  <title>MAPEO SPRINTER</title>
   <style>
-    html, body {
-      margin: 0; padding: 0; height: 100%; overflow: hidden;
+    body {
+      margin: 0; padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    #logo {
+      max-width: 150px;
+      margin: 0 auto 10px;
+      display: block;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #333;
     }
     iframe {
-      width: 100%; height: 100%; border: none;
+      width: 80vw;
+      height: 60vh;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
     }
   </style>
 </head>
 <body>
-  <iframe src="https://3dwarehouse.sketchup.com/embed/d927ceb3-81df-4f69-b6b4-92500fd645cd?token=W6E_0uJDwzA=&binaryName=s21" 
-          frameborder="0" 
-          scrolling="no" 
-          marginheight="0" 
-          marginwidth="0" 
-          allowfullscreen>
+  <!-- Logo de la empresa -->
+  <img id="logo" src="https://transfarma.cl/wp-content/uploads/2024/06/logo-transfarma-vec.png" alt="Logo de la empresa" />
+
+  <!-- Título -->
+  <h1>MAPEO SPRINTER</h1>
+
+  <!-- Modelo 3D -->
+  <iframe 
+    src="https://3dwarehouse.sketchup.com/embed/d927ceb3-81df-4f69-b6b4-92500fd645cd?token=W6E_0uJDwzA=&binaryName=s21" 
+    frameborder="0" 
+    scrolling="no" 
+    marginheight="0" 
+    marginwidth="0" 
+    allowfullscreen>
   </iframe>
 </body>
 </html>
