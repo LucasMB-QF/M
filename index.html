@@ -5,8 +5,8 @@
   <title>MAPEO SPRINTER</title>
   <style>
     body {
-      margin: 0; 
-      padding: 20px;
+      margin: 0;
+      padding: 20px 0 40px 0; /* Padding arriba y abajo, cero a los lados */
       font-family: Arial, sans-serif;
       background: #f9f9f9;
       text-align: center;
@@ -22,12 +22,13 @@
       color: #333;
     }
     iframe {
-      width: 95vw;          /* Casi todo el ancho de la ventana */
-      max-width: 1200px;    /* Para que no se pase demasiado en pantallas muy grandes */
-      height: 80vh;         /* Más alto, ocupa casi toda la altura visible */
+      width: 100vw;       /* Ocupa todo el ancho visible */
+      height: 80vh;
       border: 1px solid #ccc;
       border-radius: 8px;
       box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+      margin-bottom: 30px; /* Espacio debajo */
+      display: block;
     }
   </style>
 </head>
